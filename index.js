@@ -13,9 +13,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.get('/', (req, res) => {
-    res.send('Сервер работает!');
-});
+//app.get('/', (req, res) => {
+  //  res.send('Сервер работает!');
+//});
 
 // Массив для хранения пользователей
 let users = [];
@@ -148,9 +148,9 @@ ${formatString('*Дата *', createdAt ? new Date(createdAt._seconds * 1000).to
 });
 
 const PORT = process.env.PORT || 8000;
-app.get('/', (req, res) => {
-    res.send('Сервер работает!');
-});
+//app.get('/', (req, res) => {
+  //  res.send('Сервер работает!');
+//});
 app.listen(PORT, () => {
     console.log(`Сервер запущен на порту ${PORT}`);
 });
