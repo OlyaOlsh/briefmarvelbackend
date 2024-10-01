@@ -147,7 +147,10 @@ ${formatString('*Дата *', createdAt ? new Date(createdAt._seconds * 1000).to
     }
 });
 
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
+app.get('/', (req, res) => {
+    res.send('Сервер работает!');
+});
 app.listen(PORT, () => {
     console.log(`Сервер запущен на порту ${PORT}`);
 });
