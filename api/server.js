@@ -1,4 +1,4 @@
-const app = require('./index'); // Импортируем ваше приложение
+const app = require('../index'); // Импортируем ваше приложение
 const PORT = process.env.PORT || 8000; // Указываем порт
 
 app.listen(PORT, () => {
