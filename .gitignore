@@ -1,5 +1,5 @@
 # Игнорируем файлы окружения
-api/.env
+.env
 
 # Игнорируем папку node_modules
 node_modules/
