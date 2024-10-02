@@ -1,5 +1,5 @@
 # Игнорируем файлы окружения
-.env
+api/.env
 
 # Игнорируем папку node_modules
 node_modules/
@@ -9,3 +9,5 @@ node_modules/
 
 # Игнорируем системные файлы Mac
 .DS_Storegit
+
+1.js
